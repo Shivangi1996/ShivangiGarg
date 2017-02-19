@@ -1,0 +1,525 @@
+body{
+  font-family: 'raleway',sans-serif;
+}
+
+img{
+  width:100%;
+}
+
+
+.navbar-inverse .navbar-nav>.active>a{
+  background:rgba(255, 0, 0, -0.5);
+
+}
+.navbar-inverse{
+  background: rgba(0,0,0,0.7);
+  border: none;
+}
+.navbar-inverse .navbar-brand {
+    color: #D8616D;
+    font-weight:bold;
+    font-size: 23px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+#home{
+  background: url('../img/banner.jpeg');
+  text-align: center;
+  color: white;
+  padding: 150px 0 0 50px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#home h1{
+  font-size: 140px;
+}
+.deco{
+  width:100%;
+  color: white;
+  font-size: 15px;
+}
+.deco-line{
+  border-bottom: 2px solid white;
+  display:inline-block;
+  width: 25%;
+}
+#home h3{
+  font-family: 'Droid Serif', serif;
+  font-size: 32px;
+  padding: 20px 0 120px 0;
+}
+#home a{
+  color: white;
+  border: 2px solid white;
+  padding: 15px;
+  border-radius: 50%;
+  position: relative;
+  bottom: 23px;
+}
+
+#about{
+  padding:100px 8%;
+  text-align: center;
+}
+
+#about h2{
+font-weight: bold;
+font-size: 40px;
+}
+
+#about p{
+color: grey;
+font-size: 25px;
+font-family: 'Droid Serif', serif;
+margin:20px 0 0 0;
+}
+
+#about .deco,#whatwedo .deco, #freebies .deco,#team .deco,#numbers .deco,#testimonials .deco,#products .deco,#tools .deco{
+color: #D8616D;
+
+}
+
+#about .deco-line,#whatwedo .deco-line, #freebies .deco-line, #team .deco-line,#numbers .deco-line,#testimonials .deco-line,#products .deco-line,#tools .deco-line{
+border-bottom-color: #D8616D;
+width:10%;
+}
+
+
+#about img{
+  margin:15px 0;
+}
+
+
+#about img:hover{
+  border:3px solid black;
+}
+#whatwedo{
+  text-align: center;
+}
+
+#whatwedo h2{
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 80px;
+}
+
+#whatwedo i{
+  font-size: 60px;
+  margin-top: 20px;
+}
+
+
+#whatwedo h4{
+  font-size: 28px;
+}
+
+#whatwedo p{
+  color: grey;
+  font-size: 20px;
+  font-family: 'Droid Serif', serif;
+  padding: 15px;
+
+}
+
+
+#products{
+  text-align: center;
+}
+
+#products h2{
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 80px;
+}
+
+#products p{
+color: grey;
+font-size: 25px;
+font-family: 'Droid Serif', serif;
+margin:20px 0 0 35px;
+}
+
+
+#products img{
+  margin:18px 0;
+}
+
+
+#products img:hover{
+  border:5px solid black;
+}
+
+#products h3{
+  font-size: 28px;
+}
+
+
+#products h4{
+  color: grey;
+  font-size: 24px;
+  font-family: 'Droid Serif', serif;
+  padding: 12px;
+}
+
+#products button{
+  border-radius: 45%;
+  font-size: 18px;
+  padding: 10px 15px;
+}
+
+
+#freebies{
+  text-align: center;
+}
+
+
+#freebies h2{
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 80px;
+}
+
+
+#freebies img{
+  height:275px;
+}
+
+#freebies button{
+  font-size: 17px;
+}
+
+
+#freebies img:hover{
+  border-radius: 8%;
+}
+
+
+
+#testimonials{
+  text-align: center;
+}
+
+
+#testimonials h2{
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 80px;
+}
+
+
+#testimonials .demo,.demo1,.demo2{
+  font-family: 'Droid Serif', serif;
+   font-size:50px;
+}
+
+
+#testimonials button{
+  border-radius: 25px;
+  font-size:25px;
+  color:rgba(0,0,0,0.7);
+  font-family: 'Droid Serif', serif;
+  margin-top: 50px;
+}
+
+
+#team{
+  text-align: center;
+}
+
+
+#team h2{
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 80px;
+}
+
+
+#team h4{
+  font-size: 21px;
+  font-weight: bold;
+}
+
+#team p{
+  color: grey;
+  font-size: 17px;
+  font-family: 'Droid Serif', serif;
+  padding: 15px;
+
+}
+
+#team i:hover{
+  color: #D8616D;
+}
+
+.team_img{
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+  border: 3px solid #D8616D;
+  margin: 45px 0;
+}
+
+#tools{
+  text-align: center;
+  padding:100px 8%;
+}
+
+
+#tools h2{
+  font-weight: bold;
+  font-size: 40px;
+
+}
+
+#tools p{
+  color: grey;
+  font-size: 20px;
+  font-family: 'Droid Serif', serif;
+  padding: 15px;
+
+}
+
+#tools img{
+  margin: 60px 0;
+}
+
+
+#tools img:hover{
+  border: 5px solid brown;
+}
+
+.tools_img{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+#numbers{
+  text-align: center;
+}
+
+#numbers h2{
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 80px;
+}
+
+
+
+
+#contact{
+  position: relative;
+}
+
+.contact-box{
+  position: absolute;
+  display: inline-block;
+  z-index: 100;
+  background: white;
+  top:10px;
+  left: 10px;
+  text-align: center;
+  padding: 20px;
+
+}
+
+#map {
+ height: 400px;
+ width: 100%;
+ background-color: grey;
+ margin-top: 60px;
+}
+
+
+   input{
+     border:0;
+     padding:16px 44px;
+     font-size:14px;
+   }
+   input[type="submit"]
+   {
+     background:#434547;
+     color:white;
+   }
+
+
+.connect{
+  width: 100px;
+  text-align: center;
+  padding: 20px;
+  margin: 20px 20px 20px 95px;
+  border-top: 1px solid grey;
+  font-size: 24px;
+
+}
+
+.connect i{
+  color:grey;
+}
+
+
+footer{
+  background: black;
+  padding: 6px;
+}
+
+
+#foot{
+  width:100%;
+}
+
+.footer-links, .footer-copyright, .footer-social{
+  display:inline-block;
+  text-align: center;
+  width: 33%;
+}
+
+
+.footer-links a{
+  color:grey;
+  padding: 20px;
+  font-weight: bold;
+}
+
+
+.footer-social i{
+  font-size: 25px;
+  margin: 5px;
+  color: grey;
+  padding: 8px;
+}
+
+.footer-copyright p{
+  color: grey;
+  font-size: 17px;
+}
+
+.footer-copyright a{
+  color: lightgrey;
+}
+
+
+#freebies p{
+color: grey;
+font-size: 21px;
+font-family: 'Droid Serif', serif;
+padding: 15px;
+}
+
+
+#freebies h4{
+  color: grey;
+  font-size: 24px;
+  font-family: 'Droid Serif', serif;
+  padding: 15px;
+}
+
+
+  #numbers p{
+    color: grey;
+    font-size: 21px;
+    font-family: 'Droid Serif', serif;
+    padding: 15px;
+  }
+  #numbers h3{
+    font-weight: bold;
+    margin-top: 50px;
+  }
+  #numbers h5{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  #freebies button:hover {
+    border-radius: 50%;
+    font-weight: 900;
+    letter-spacing: 1px;
+    background: grey;
+}
+
+
+
+
+@media (max-width:768px){
+  #home h1 {
+      font-size: 60px;
+  }
+  #home h3{
+    font-size: 27px;
+  }
+  #about h2{
+    font-size:35px;
+  }
+  #about p{
+    font-size: 13px;
+  }
+  #whatwedo p{
+    font-size: 15px;
+  }
+  #products p{
+    font-size: 17px;
+  }
+  #products h4 small{
+    font-size: 60%;
+  }
+  #products button{
+    font-size: 14px;
+  }
+  #freebies h2{
+    font-size: 30px;
+  }
+  #freebies p{
+    font-size: 16px;
+  }
+  #freebies h4 small{
+    font-size: 60%;
+  }
+  #freebies button{
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  #tools h2{
+    font-size: 30px;
+    margin-top: 0px;
+  }
+  #tools img{
+    margin: 30px 0;
+
+  }
+  #testimonials h2{
+    font-size: 34px;
+  }
+  .connect{
+    width:182px;
+  }
+
+  #team i:hover{
+    color: #D8616D;
+  }
+  #numbers h2{
+    font-size: 37px;
+  }
+  #numbers h3{
+    font-size: 33px;
+  }
+  #numbers h5{
+    margin-top: 33px;
+  }
+#contact h3{
+  font-size: 16px;
+}
+#contact p{
+  font-size: 10px;
+}
+input{
+  font-size: 10px;
+  padding: 10px 10px;
+}
+
+footer{
+  background: black;
+  padding: 1px;
+}
+}
